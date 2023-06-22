@@ -1,0 +1,11 @@
+FOO:
+  BAR:
+    BAZ: foobarbaz
+BAR:
+  BAZ: barbaz
+BAR_BAZ: baz
+BAZ:
+  69:
+    1337: '1337'
+    true: 'True'
+    null: 'None'

@@ -1,14 +1,15 @@
 from setuptools import setup
 
-version = '1.0'
+version = '2.0'
+
+with open("README.md") as f:
+    long_description = f.read()
 
 setup(
     name='env_values',
     version=version,
     description="Load env values",
-    long_description='\n'.join([
-        open("README.md").read(),
-    ]),
+    long_description=long_description,
     keywords='env',
     author='Burhan Zainuddin',
     author_email='burhan@codeyellow.nl',
@@ -19,6 +20,6 @@ setup(
     python_requires='~=3.3',
     include_package_data=True,
     zip_safe=True,
-    install_requires=['python-dotenv'],
+    install_requires=['python-dotenv', 'pyyaml'],
     py_modules=['env_values'],
 )

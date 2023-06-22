@@ -1,0 +1,7 @@
+FOO: foo
+BAR: 123
+BAZ: 1.23
+FOO_BAR: false
+FOO_BAZ: null
+FOO_BAR_BAZ: ['foo', 'bar', 'baz']
+# TEST: test
